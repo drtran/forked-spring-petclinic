@@ -1,5 +1,6 @@
-projectKey=java-sonar-runner-simple
+projectKey=petclinic-key
 serverUrl=http://localhost:9000
-dashboardUrl=http://localhost:9000/dashboard/index/java-sonar-runner-simple
-ceTaskId=AWAIQ9D9dZMMptphkLMK
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWAIQ9D9dZMMptphkLMK
+serverVersion=6.7.2.37468
+dashboardUrl=http://localhost:9000/dashboard/index/petclinic-key
+ceTaskId=AWHdp1vV7W2JCaZXxxMD
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWHdp1vV7W2JCaZXxxMD

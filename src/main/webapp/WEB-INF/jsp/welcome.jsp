@@ -8,7 +8,7 @@
 	<h3 id="date-field">Date: Feb 28 2017 12:58 PM</h3>
 	<h3 id="app-name">Application name: Pet Clinic</h3>
 	<div>
-		<span id="version-id">6.7.4</span>
+		<span id="version-id">6.7.4.2</span>
 	</div>
 
 	<div class="row">

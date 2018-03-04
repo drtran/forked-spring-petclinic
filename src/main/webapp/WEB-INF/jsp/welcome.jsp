@@ -4,11 +4,13 @@
 <%@ taglib prefix="petclinic" tagdir="/WEB-INF/tags"%>
 
 <petclinic:layout pageName="home">
-	<h1 id="welcome-field">Welcome To DevSecOps Project</h1>
-	<h3 id="date-field">Date: Feb 28 2017 12:58 PM</h3>
-	<h3 id="app-name">Application name: Pet Clinic</h3>
 	<div>
-		<span id="version-id">6.7.4.2</span>
+		<h1 id="welcome-field">Welcome To DevSecOps Project</h1>
+		<h3 id="date-field">Date: Mar 4 2017 10:02 PM</h3>
+		<h3 id="app-name">Application name: Pet Clinic</h3>
+	</div>
+	<div>
+		<span id="version-id">Version: 6.7.4.2</span>
 	</div>
 
 	<div class="row">

@@ -41,7 +41,9 @@
 		<dandelion.datatables.version>1.1.0</dandelion.datatables.version>
 
 		<cobertura.version>2.7</cobertura.version>
-
+		
+		<sonar.exclusions>src/main/webapp/vendors/**/*</sonar.exclusions>
+	    
 	</properties>
 
 	<dependencyManagement>

@@ -6,7 +6,7 @@
 <petclinic:layout pageName="home">
 	<div>
 		<h1 id="welcome-field">Welcome To DevSecOps Project</h1>
-		<h3 id="date-field">Date: Mar 5 2017 7:36 AM</h3>
+		<h3 id="date-field">Date: Mar 5 2017 10:03 AM</h3>
 		<h3 id="app-name">Application name: Pet Clinic</h3>
 	</div>
 	<div>

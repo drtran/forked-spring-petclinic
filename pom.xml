@@ -41,9 +41,9 @@
 		<dandelion.datatables.version>1.1.0</dandelion.datatables.version>
 
 		<cobertura.version>2.7</cobertura.version>
-		
+
 		<sonar.exclusions>src/main/webapp/vendors/**/*</sonar.exclusions>
-	    
+
 	</properties>
 
 	<dependencyManagement>
@@ -422,7 +422,17 @@
 	</build>
 	<reporting>
 		<plugins>
-
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>cobertura-maven-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<formats>
+						<format>html</format>
+						<format>xml</format>
+					</formats>
+				</configuration>
+			</plugin>
 
 		</plugins>
 	</reporting>

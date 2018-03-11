@@ -6,11 +6,12 @@
 <petclinic:layout pageName="home">
 	<div>
 		<h1 id="welcome-field">Welcome To DevSecOps Project</h1>
-		<h3 id="date-field">Date: Mar 5 2017 10:03 AM</h3>
+		<h3 id="date-field">Date: Mar 8 2017 11:44 AM</h3>
+		<h3 id=note">Demo @ Ballston</h3>
 		<h3 id="app-name">Application name: Pet Clinic</h3>
 	</div>
 	<div>
-		<span id="version-id">Version: 6.7.4.3</span>
+		<span id="version-id">Version: 6.8.1</span>
 	</div>
 
 	<div class="row">

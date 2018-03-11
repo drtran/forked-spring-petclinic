@@ -272,6 +272,7 @@
 	<!-- Maven plugin versions are mentioned in order to guarantee the build 
 		reproducibility in the long term -->
 	<build>
+		<finalName>petclinic</finalName>
 		<defaultGoal>install</defaultGoal>
 		<testResources>
 			<testResource>
@@ -359,9 +360,11 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<server>tomcat-development-server</server>
-					<port>9966</port>
+					<url>http://localhost:8080/manager/text</url>
+					<server>TomcatServer</server>
 					<path>/petclinic</path>
+					<username>deployer</username>
+					<password>Tomcat123</password>
 				</configuration>
 			</plugin>
 			<plugin>

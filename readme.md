@@ -63,3 +63,5 @@ To display images in openshift registry:
 ```
 oc get is
 ```
+
+To build & deploy using Openshift (i.e. minishift), visit this repository: https://github.com/drtran/devops-scripts
